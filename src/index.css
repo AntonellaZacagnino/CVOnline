@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Quicksand:400,700|Poiret+One|Gruppo&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+    font-family: 'Quicksand' !important;
+    font-weight: bold;
+}
