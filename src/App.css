@@ -1,12 +1,33 @@
-.App {
-    text-align: center;
+.background>img{
+    width: 100%;
+    /* max-height: calc(43rem + 3px); */
 }
 
+.container{
+    width: 60%;
+    height: 86%;
+    left: 9%;
+    top: 7%;
+    position: absolute;
+}
+
+.App {
+    width: 100vh;
+    height: 75vh;
+    border-radius: 60vh;
+    background-color: white;
+    box-shadow: 6px 15px 1px 3px #584f52;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
 .App-logo {
     height: 6vmin;
     pointer-events: none;
     filter: invert(49%) sepia(130%) saturate(500%) hue-rotate(304deg) brightness(145%) contrast(125%);
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -15,7 +36,6 @@
 }
 
 .App-header {
-    /* background-image: linear-gradient(#ffbdeb, #9fa5ff); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,7 +47,6 @@
 .banner {
     width: 100%;
     height: 200px;
-    background-color: white;
 }
 
 .banner h4 {

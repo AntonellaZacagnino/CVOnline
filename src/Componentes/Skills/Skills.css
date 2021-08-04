@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Encode+Sans+SC:wght@100;300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+.info-box .titulo {
+  margin-top: 5vh;
+}
+.info-box h2 {
+  font-family: "Encode Sans SC";
+  font-size: 40px;
+  line-height: 9vh;
+}
+
+.cubo {
+  position: relative;
+  width: 206px;
+  margin: 0px auto;
+}
+
+.cara1 {
+  width: 29px;
+  height: 69px;
+  background: #AE3A52;
+  border-bottom: solid 2px #FFF;
+  transform: skew(180deg, 140deg);
+  position: absolute;
+  top: -19px;
+  left: -28px;
+}
+
+.cara2 {
+  width: 240px;
+  height: 24px;
+  background: #840A31;
+  transform: skew(131deg, 180deg);
+  position: absolute;
+  left: -13px;
+  top: 38px;
+  border-left: 1px solid #fff;
+}
+
+.cara3 {
+  width: 240px;
+  height: 70px;
+  background: #FFB0C1;
+  position: relative;
+  left: 1px;
+  top: -32px;
+}
+
+.skills {
+  display: flex;
+}
+
+h3 {
+  background-color: #FFB0C1;
+  font-family: "Encode Sans SC";
+  color: white;
+  padding: 5px 20px;
+  border-radius: 3vh;
+}
+
+.skills, .idiomas {
+  margin-left: 10vh;
+}
+.skills ul, .idiomas ul {
+  list-style: none;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.skills ul li, .idiomas ul li {
+  position: relative;
+  padding-left: 25px;
+  text-align: start;
+}
+.skills ul li::before, .idiomas ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image: url("./heart.svg");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*# sourceMappingURL=Skills.css.map */

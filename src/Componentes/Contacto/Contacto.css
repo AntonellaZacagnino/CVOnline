@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Encode+Sans+SC:wght@100;300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+.info-box .titulo {
+  margin-top: 5vh;
+}
+.info-box h2 {
+  font-family: "Encode Sans SC";
+  font-size: 40px;
+  line-height: 9vh;
+}
+
+.datos {
+  margin-top: 10vh;
+}
+
+.redes img {
+  width: 50px;
+  margin: 5vh;
+}
+
+.cubo {
+  position: relative;
+  width: 206px;
+  margin: 0px auto;
+}
+
+.cara1 {
+  width: 29px;
+  height: 69px;
+  background: #AE3A52;
+  border-bottom: solid 2px #FFF;
+  transform: skew(180deg, 140deg);
+  position: absolute;
+  top: -19px;
+  left: -28px;
+}
+
+.cara2 {
+  width: 240px;
+  height: 24px;
+  background: #840A31;
+  transform: skew(131deg, 180deg);
+  position: absolute;
+  left: -13px;
+  top: 38px;
+  border-left: 1px solid #fff;
+}
+
+.cara3 {
+  width: 240px;
+  height: 70px;
+  background: #FFB0C1;
+  position: relative;
+  left: 1px;
+  top: -32px;
+}
+
+/*# sourceMappingURL=Contacto.css.map */

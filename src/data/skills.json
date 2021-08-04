@@ -1,0 +1,22 @@
+{
+    "skills1": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "Maquetacion Web",
+            "Bootstrap",
+            "Javascript"
+    ],
+    "skills2":[
+            "React.js",
+            "Vue.js",
+            "JQuery",
+            "PHP",
+            "Symfony",
+            "Laravel"
+    ],
+    "idiomas": [
+        "Inglés (escrito) - Avanzado",
+        "Inglés (escrito) - Intermedio"
+    ]
+}

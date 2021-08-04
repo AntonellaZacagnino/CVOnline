@@ -1,0 +1,22 @@
+
+.foto-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+    left: 84%;
+    top: 26%;
+    border-radius: 17vh;
+    border: 15px solid #FF889A;
+}
+.foto-container > .foto {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -85%;
+    bottom: -100%;
+    margin: auto;
+    height: 135%;
+    width: 100%;
+}

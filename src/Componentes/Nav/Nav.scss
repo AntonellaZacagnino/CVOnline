@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+.deco{
+    position: absolute;
+    top: 21%;
+    left: 77%;
+    height: 45vh;
+    border-left: 3px dotted #AE3A52;
+}
+
+.puntas-deco{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    transform: rotate(45deg);
+    border: 5px solid #AE3A52;
+    &.deco-top{
+        position: absolute;
+        top: 20%;
+        left: 76.1%;
+    }
+    &.deco-bottom{
+        position: absolute;
+        top: 80%;
+        left: 76.1%;
+    }
+}
+
+
+.tab{
+    background-color: #FFB0C1;
+    font-family: 'Pompiere';
+    width: 5rem;
+    padding: 4px 0;
+    margin-bottom: 2em;
+    list-style: none;
+    &:hover, &:hover>a::after,
+    &.active , &.active>a::after{
+        transition: ease-out 0.3s;
+        background-color: #D96175;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #perfil::after{
+        top: 4px;
+    }
+    #experiencia::after{
+        top: 63px;
+    }
+    #formacion::after{
+        top: 122px;
+    }
+    #skills::after{
+        top: 181px;
+    }
+    #contacto::after{
+        top: 240px;
+    }
+    a::after{
+        content: "";
+        position: absolute;
+        right: 70px;
+        width: 18px;
+        height: 18px;
+        background-color: #FFB0C1;
+        border: 1px solid #FFB0C1;
+        border-left: none;
+        border-bottom: none;
+        transform: rotate(225deg);
+    }
+}
+
+.tab-list{
+    position: absolute;
+    left: 62%;
+    top: 21%;
+}
